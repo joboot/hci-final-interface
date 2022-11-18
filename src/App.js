@@ -1,12 +1,16 @@
-import React from 'react';
+import './App.css';
+import Sidebar from './sidebar';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
-    return (
-        <div>
+  return (
+    <Router>
+      <div className="App">
 
-        </div>
-        
-    );
+      </div>
+    </Router>
+  );
 }
-  
+
 export default App;
+
