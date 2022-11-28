@@ -9,9 +9,11 @@ import Header from "./components/TopBarComp";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App">  
         <Header/>
+        <Sidebar/>
         <SignIn/>
+        
       </div>
     </Router>
   );
