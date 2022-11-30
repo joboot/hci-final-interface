@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import React from "react";
 import Header from "./components/TopBarComp";
 import PageOne from './pages/PageOne';
+import DefaultPage from './components/DefaultPage';
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
     <Router>
       <div className="App">  
         <Header/>
-        <SidebarComp/>
+        <Sidebar/>
         {/* <SignIn/> */}
-        <PageOne/>
+        {/* <PageOne/> */}
+        <DefaultPage/>
         
       </div>
     </Router>
