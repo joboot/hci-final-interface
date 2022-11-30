@@ -5,16 +5,18 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import React from "react";
 import Header from "./components/TopBarComp";
 import PageOne from './pages/PageOne';
+import DefaultPage from './components/DefaultPage';
 
 
 function App() {
   return (
     <Router>
       <div className="App">  
-        <Header/>
-        <Sidebar/>
+        {/* <Header/>
+        <Sidebar/> */}
         {/* <SignIn/> */}
-        <PageOne/>
+        {/* <PageOne/> */}
+        <DefaultPage/>
         
       </div>
     </Router>
