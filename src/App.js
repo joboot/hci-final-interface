@@ -4,14 +4,18 @@ import SignIn from './pages/SignIn';
 import { BrowserRouter as Router } from 'react-router-dom';
 import React from "react";
 import Header from "./components/TopBarComp";
+import PageOne from './pages/PageOne';
 
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App">  
         <Header/>
-        <SignIn/>
+        <Sidebar/>
+        {/* <SignIn/> */}
+        <PageOne/>
+        
       </div>
     </Router>
   );
