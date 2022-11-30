@@ -1,5 +1,5 @@
 import './index.css';
-import Sidebar from './components/sidebar';
+import Sidebar from './components/SidebarComp';
 import SignIn from './pages/SignIn';
 import { BrowserRouter as Router } from 'react-router-dom';
 import React from "react";
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">  
         <Header/>
-        <Sidebar/>
+        <SidebarComp/>
         {/* <SignIn/> */}
         <PageOne/>
         
