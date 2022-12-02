@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="App">  
         <Header/>
-        {/*<Sidebar/>*/}
+        <Sidebar/>
         {/* <SignIn/> */}
         {/* <PageOne/> */}
         <DefaultPage/>
