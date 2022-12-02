@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <div className="App">  
-        <Header/>
-        <Sidebar/>
+        {/* <Header/> */}
+        {/* <Sidebar/> */}
         {/* <SignIn/> */}
         {/* <PageOne/> */}
         <DefaultPage/>
