@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from './TopBarComp'
-import Sidebar from './sidebar'
+import Sidebar from './SidebarComp'
 import PageOne from '../pages/PageOne'
 
 
